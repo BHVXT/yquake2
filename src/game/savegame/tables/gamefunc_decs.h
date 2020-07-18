@@ -1048,3 +1048,17 @@ extern void ai_walk ( edict_t * self , float dist ) ;
 extern void ai_stand ( edict_t * self , float dist ) ;
 extern void ai_move ( edict_t * self , float dist ) ;
 extern void AI_SetSightClient ( void ) ;
+
+extern void SP_stc_boss_percy( edict_t * self ) ;
+extern void percy_stand( edict_t  * self ) ;
+extern void percy_run( edict_t * self ) ;
+extern void percy_down( edict_t * self ) ;
+extern void percy_downed( edict_t * self , edict_t * inflictor , edict_t * attacker , int damage , vec3_t point ) ;
+extern void percy_tommy( edict_t * self ) ;
+extern void PercyTommyFire( edict_t * self ) ;
+extern void percy_sight( edict_t * self ) ;
+extern void percy_pain( edict_t * self , edict_t * other , float kick , int damage ) ;
+
+extern void SP_stc_misc_kirkton ( edict_t * self ) ;
+extern void stc_misc_kirkton_use ( edict_t * self , edict_t * other , edict_t * activator ) ;
+extern void stc_misc_kirkton_think ( edict_t * self ) ;

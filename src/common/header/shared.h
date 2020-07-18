@@ -929,6 +929,13 @@ typedef struct
 #define MZ2_WIDOW2_BEAM_SWEEP_10 209
 #define MZ2_WIDOW2_BEAM_SWEEP_11 210
 
+#define MZ2_PERCY_BLASTER_1 211
+#define MZ2_PERCY_BLASTER_2 212
+#define MZ2_PERCY_BLASTER_3 213
+#define MZ2_PERCY_BLASTER_4 214
+#define MZ2_PERCY_BLASTER_5 215
+#define MZ2_PERCY_BLASTER_6 216
+
 extern vec3_t monster_flash_offset[];
 
 /* Temp entity events are for things that happen

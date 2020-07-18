@@ -339,7 +339,7 @@ CL_AddMuzzleFlash2(void)
 
 	flash_number = MSG_ReadByte(&net_message);
 
-	if (flash_number > 210)
+	if (flash_number > 216)
 	{
 		Com_DPrintf("CL_AddMuzzleFlash2: bad offset");
 		return;
@@ -771,6 +771,19 @@ CL_AddMuzzleFlash2(void)
 			dl->color[1] = 1;
 			dl->color[2] = 0;
 			dl->die = cl.time + 200;
+			break;
+			
+		case MZ2_PERCY_BLASTER_1:
+		case MZ2_PERCY_BLASTER_2:
+		case MZ2_PERCY_BLASTER_3:
+		case MZ2_PERCY_BLASTER_4:
+		case MZ2_PERCY_BLASTER_5:
+		case MZ2_PERCY_BLASTER_6:
+			dl->color[0] = 1;
+			dl->color[1] = 1;
+			dl->color[2] = 0;
+			S_StartSound(NULL, ent, CHAN_WEAPON, 
+				S_RegisterSound("enemies/bosses/percy/tommy.wav"), 1, ATTN_NORM, 0);
 			break;
 	}
 }

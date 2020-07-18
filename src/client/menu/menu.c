@@ -4315,7 +4315,7 @@ PlayerConfig_MenuInit(void)
     s_player_name_field.cursor = strlen(name->string);
 
     s_player_model_title.generic.type = MTYPE_SEPARATOR;
-    s_player_model_title.generic.name = "model";
+    s_player_model_title.generic.name = "character";	/* replaced "model" with "character" */
     s_player_model_title.generic.x = -8 * scale;
     s_player_model_title.generic.y = 60;
 

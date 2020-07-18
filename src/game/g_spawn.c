@@ -148,6 +148,9 @@ void SP_turret_breach(edict_t *self);
 void SP_turret_base(edict_t *self);
 void SP_turret_driver(edict_t *self);
 
+void SP_stc_boss_percy(edict_t *self);
+void SP_stc_misc_kirkton(edict_t *self);
+
 spawn_t spawns[] = {
 	{"item_health", SP_item_health},
 	{"item_health_small", SP_item_health_small},
@@ -266,6 +269,9 @@ spawn_t spawns[] = {
 	{"turret_breach", SP_turret_breach},
 	{"turret_base", SP_turret_base},
 	{"turret_driver", SP_turret_driver},
+	
+	{"stc_boss_percy", SP_stc_boss_percy},
+	{"stc_misc_kirkton", SP_stc_misc_kirkton},
 
 	{NULL, NULL}
 };

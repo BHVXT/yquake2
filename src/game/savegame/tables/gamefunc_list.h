@@ -1048,4 +1048,19 @@
 {"ai_stand", (byte *)ai_stand},
 {"ai_move", (byte *)ai_move},
 {"AI_SetSightClient", (byte *)AI_SetSightClient},
+
+{"SP_stc_boss_percy", (byte *)SP_stc_boss_percy},
+{"percy_stand", (byte *)percy_stand},
+{"percy_run", (byte *)percy_run},
+{"percy_down", (byte *)percy_down},
+{"percy_downed", (byte *)percy_downed},
+{"percy_tommy", (byte *)percy_tommy},
+{"PercyTommyFire", (byte *)PercyTommyFire},
+{"percy_sight", (byte *)percy_sight},
+{"percy_pain", (byte *)percy_pain},
+
+{"SP_stc_misc_kirkton", (byte *)SP_stc_misc_kirkton},
+{"stc_misc_kirkton_use", (byte *)stc_misc_kirkton_use},
+{"stc_misc_kirkton_think", (byte *)stc_misc_kirkton_think},
+
 {0, 0}
